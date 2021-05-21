@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Vaibhav Gupta</title>
+    <link rel="stylesheet" href="css/styles.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans&family=Sacramento&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" rel="stylesheet">
+    <link rel="icon" href="favicon.ico">
+  </head>
+  <body>
+    
+
+
+    <div id="app"></div>
+<div class="burg " >
+
+  <div class="container dropbtn" onclick="myFunction(this); myFunc() ">
+    <div class="bar1"></div>
+    <div class="bar2"></div>
+    <div class="bar3"></div>
+    
+  </div>
+  <div id="myDropdown" class="dropdown-content">
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </div>
+  <script>
+  function myFunction(x) {
+    x.classList.toggle("change");
+  }
+
+
+  function myFunc() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+  </script>
+  
+
+  <!-- <div class="menu">
+    <div class="bar"></div>
+    <div class="bar"></div>
+    <div class="bar"></div>
+  </div> -->
+</div>
+
+
+
+    <div class="top-container" >
+      <!-- <img class="top-cloud" src="images/cl.png" alt=""> -->
+      <h1>I'm Vaibhav</h1>
+      <p class="par" id="prg"> a programmer.<div id="border"></div></p>
+      <!-- <img class="bottom-cloud" src="images/cl.png" alt=""> -->
+      <!-- <img class="mount" src="images/mountt.png" alt=""> -->
+    </div>
+    
+
+<div class="newr">
+  
+
+
+
+  
+<div class="middle-container">
+  <div class="profile">
+    <img src="images/vab.jpg" alt="pp" class="pp">
+    <h2>Hello.</h2>
+    <p>I am a Student and Web developer. I 💙 to play guitar</p>
+  </div>
+  <hr>
+
+
+  <div class="skills" >
+    <h2 id="about">My Skills.</h2>
+    <table>
+      <tr>
+        <td>
+        <div class="card2 nat">
+        <div class="skill-row" >
+    
+          <div class="card tiltt">
+          <img class="cod" src="images/programming.png" alt="">
+    
+         
+          <h3>About & Development</h3><br>
+         
+          <p class="rt">Hello there, I'm Vaibhav Gupta, pretty tech savvy and Enthusiastic about learning new technologies.
+            Currently, I am pursuing my
+            <b>MCA </b>in DCS(dept.) from <b>Babasaheb Bhimrao Ambedkar University</b> with interests range from
+            java and web development.I love to develop and design web-apps, explore new stuff, and listen to music and play guitar in my free time.<br>
+            Contact me if you like to work along with me in this beautiful journey.</p>
+        </div>
+      </div>
+    </div>
+  </td>
+
+  <td>
+<div class="card2 "></div>
+    <div class="skill-row">
+      <div class="card gitt">
+      <img class="guitar" src="images/guitar.png" alt="" id="gitar">
+      
+      <h3>Others</h3>
+      
+      <p>I also like to play guitar just for fun, I started this when I was 16 years old.</p>
+    </div>
+  </div>
+</div>
+</td>
+</tr>
+</table>
+
+  </div>
+
+<br>
+  <hr>
+
+  <div class="night">
+    <div class="shooting_star"></div>
+    <div class="shooting_star"></div>
+    <div class="shooting_star"></div>
+    <div class="shooting_star"></div>
+    <div class="shooting_star"></div>
+    <div class="shooting_star"></div>
+    <div class="shooting_star"></div>
+    <div class="shooting_star"></div>
+    <div class="shooting_star"></div>
+    <div class="shooting_star"></div>
+    <div class="shooting_star"></div>
+    <div class="shooting_star"></div>
+    <div class="shooting_star"></div>
+    <div class="shooting_star"></div>
+    <div class="shooting_star"></div>
+    <div class="shooting_star"></div>
+    <div class="shooting_star"></div>
+    <div class="shooting_star"></div>
+    <div class="shooting_star"></div>
+    <div class="shooting_star"></div>
+  </div>
+
+
+  <div class="skills">
+    <h2 id="projects">Few Projects.</h2>
+<!-- <div class="card">
+  <p>
+    Similar post
+  </p>
+  <h2>
+    How I recreated a Polaroid camera with CSS gradients only
+  </h2>
+</div> -->
+
+    <div class="crd">
+    <div class="skill-row" id="fdnotes">
+      <div class="crd1" >
+      <img class="cod" src="images/fslogo.png" alt="">
+      <h3><a href="http://fridaynotes.rf.gd">Fridaynotes</a></h3><br>
+      <p class="rt">Can't manage educative/semester's notes??
+        All notes are available here including handwritten notes
+        You can Upload your notes also and be a part of it.
+        free for everyone!! Visit Now <br>Can be used as a platform in crises like Covid pandemic.</p>
+    </div>
+  </div>
+</div>
+
+<div class="crd">
+    <div class="skill-row">
+      <div class="crd1">
+      <img  class="weth" src="images/weth.jpg" alt="">
+      <h3>Weather App</h3>
+      <p class="rt"> weather app that takes a city name and returns the current weather for that city by using the openweathermap API. <br> I have consciously chosen to make this app minimal.</p>
+    </div> 
+  </div>
+</div>
+</div>
+  <br>
+  <hr>
+
+
+  <div class="contact-me">
+    
+    <h2 id="contact">Get In Touch</h2>
+    <h3><strong>If you love playing acoustic as much as i do.</strong></h3>
+    <p class="ti">Love playing acoustic as much as I do?Let's talk about how awesome is this feeling! <br>We can code while we play,sing and enjoy!</p></p>
+    
+    <a class="btn" href="mailto:vaibhav101098@gmail.com">CONTACT ME</a>
+  </div>
+</div>
+
+
+<div class="bottom-container">
+  <a class="footer-link" href="https://www.linkedin.com/in/vaibhav-gupta-674102171/">LinkedIn</a>
+  <a class="footer-link" href="https://twitter.com/Vaebhav_g">Twitter</a>
+  <a class="footer-link" href="https://www.facebook.com/Vaebhav.dev/">Facebook</a>
+  <p class="copyright">© 2021 Vaibhav Gupta.</p>
+</div>
+
+  </body>
+</html>
